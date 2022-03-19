@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: beige;
+    font-family:'Trebuchet MS';
+    min-height: 100vh;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* ----Header Navigation Bar---- */
+nav{
+    display: flex;
+    background-color:#301504;
+    justify-content: space-between;
+    /* padding: 20px 0; */
+    height: 62px;
+    align-items: center;
+    color: #8e8043;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 30%;
+    /* background: rgb(133, 120, 120); */
+}
+
+nav .logo a img {
+    /* float: left; */
+    width: 50px;
+    padding: 0px 0px;
+  }
+
+/* nav .logo h1{
+    background-color: aquamarine;
+} */
+nav ul{
+    display: flex;
+    list-style: none;
+    width:  25%;
+    justify-content: space-around;
+    /* background: rgb(224, 187, 187); */
+}
+
+nav ul li a{
+    padding: 16px 30px;
+    transition: 0.3s ease 0s;
+}
+nav ul li a:hover{
+    color: beige;
+    background-color: #8e8043;
+    width: 5px;
+}
+/* ----Footer & Sosmed----- */
+footer{
+    display: flex;
+    position: sticky;
+    top: 100%;
+    color: #8e8043;
+    background-color:#301504;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+
+}
+
+footer  .sosmed{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 60%;
+}
+
+footer .sosmed ul{
+    display: flex;
+    list-style: none;
+    width:  100px;
+    justify-content: space-around;
+}
+footer p{
+    display: flex;
+    font-size: 10pt;
+    width:32%;
+    justify-content:center ;
+    /* background-color: azure; */
+}
+/* ---Responsive---- */
+
+/* Tablet */
+/* @media screen and (max-width: 768px) {
+    nav ul{
+        width:  35%;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav ul{
+        display: none;
+
+    }
+} 
+     */
