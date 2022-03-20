@@ -1,13 +1,13 @@
-  * {
+/* * {
     margin: 0;
     padding: 0;
-    font-family: "Avenir Next";
-  }
+    font-family:'Trebuchet MS';
+  } */
   a {
     text-decoration: none;
     color: #7e4d03;
   }
-  .header {
+  /* .header {
     height: 60px;
     box-sizing: border-box;
     padding: 1% 8%;
@@ -36,22 +36,20 @@
   nav ul li:hover{
     background: #ff9d0a;
     border-radius: 50px;
-  }
+  } */
   .display{
-    align-items: center;
-    width: 1200px;
-    height: 450px;
+    width: 1180px;
     border-radius: 20px;
-    margin: 2% 8%;
-    display: inline-block;
-    background-image: url(pencil.jpg);
+    margin: 0px auto;
+    background-image: url('../pencil.jpg');
     background-size: cover;
     background-position: center;
+    padding: 80px 10px;
   }
   .text {
     color: beige;
     display: inline-block;
-    margin: 8% 8% 3% 8%;
+    margin: 8%;
     align-items: center;
   }
   h2 {
@@ -59,8 +57,8 @@
   }
   p {
     font-size: 20px;
-    font-weight: lighter;
   }
+
   button{
     width: 200px;
     padding: 15px 0;
@@ -68,7 +66,13 @@
     margin-left: 8%;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px white;
+    border: 2px;
+    color:black;
     background: beige transparent;
     cursor: pointer;
+    transition: 0.2s;
   }
+  button:hover{
+    background: #f3c682;
+  }
+  
