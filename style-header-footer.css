@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Gill Sans;
+}
+
+body{
+    background-color: beige;
+    min-height: 100vh;
+}
+
+
+
+/* ----Header Navigation Bar---- */
+
+.list-nav{
+    display: flex;
+    position:fixed;
+    box-shadow: 0px 0px 10px;
+    background-color:beige;
+    justify-content: flex-end;
+    align-items: center;
+    color: #7e4d03;
+    margin:0;
+    padding: 0.5rem 0;
+    width: 100%;
+    /* border-radius: 20px;
+    margin-top: 110px; */
+
+}
+
+.list-nav a{
+    display: flex;
+    width:100%;
+    color: inherit;
+    text-decoration: none;
+    padding: 18px 10px;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.item-nav{
+    list-style: none;
+    margin-right:4rem;
+}
+
+.item-nav a:hover{
+    background: #ff9d0a;
+    border-radius: 40px;
+}
+.active{
+   background: #ff9d0a;
+   border-radius: 40px;
+   padding: 18px 15px;
+}
+
+.item-nav:last-child{
+    margin-right: 6rem;
+}
+
+.huruf{
+    list-style: none;
+    margin-right:42rem;
+}
+
+.logo{
+    list-style: none;
+    margin-right: auto;
+    margin-left: 4rem;
+}
+.logo a img{
+    width:30px;
+}
+
+/* ----Footer---- */
+
+.footer {
+    padding:10px 0;
+    background-color:#be7507;
+    color: white;
+    top: 100%;
+    position:sticky;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+    margin-bottom: 25px;
+}
+
+.logo-footer img{
+    width: 20px;
+}
+
+.logo-footer h2{
+    opacity: 0.75;
+    margin-left: 0.5rem;
+}
+.footer ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.footer li {
+    padding:0 10px;
+}
+  
+.footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer ul a:hover {
+    opacity:1;
+}
+  
+.footer .sosmed {
+    text-align:center;
+    padding-bottom:25px;
+}
+  
+.footer .sosmed  a {
+    font-size:30px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    margin-right: 5px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer .sosmed > a:hover {
+    opacity:1;
+}
+
+.option li{
+    display: inline-block;
+}
+  
+ .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:white;
+    margin-bottom:0;
+}

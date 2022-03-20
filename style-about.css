@@ -1,0 +1,112 @@
+/* ----Body of About---- */
+
+.main{
+    width: 1600px;
+    /* height: 800px; */
+    max-width: 95%;
+    margin: 0px auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+    /* background-color: rgb(156, 129, 129); */
+}
+
+/* About Sejarah */
+.about{
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.about img{
+    margin-top: 80px;
+    height: auto;
+    width: 420px;
+    border-radius: 40px;
+
+}
+
+.about-text{
+    width: 600px;
+}
+
+
+.about-text h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.about-text h5 span{
+    color: #ff9d0a;
+}
+
+.about-text  p{
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    color: #7e4d03;
+}
+
+/* Alamat */
+.alamat{
+    width: 100%;
+    padding: 0px 0px 80px 0px;
+    /* background-color: chartreuse; */
+}
+
+.alamat img{
+    /* margin-top: 80px; */
+    height: auto;
+    width: 420px;
+    border-radius: 40px;
+}
+
+.alamat-text{
+    width: 600px;
+}
+
+
+.alamat-text h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.alamat-text h5{
+    font-size: 30px;
+    color: #ff9d0a;
+    margin-bottom: 25px;
+}
+
+.alamat-text  p{
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    color: #7e4d03;
+    margin-bottom: 20px;
+}
+
+.alamat-text button{
+    background: #ff9d0a ;
+    color: #7e4d03;
+    font-size: 16px;
+    text-decoration: none;
+    border: 3px solid;
+    font-weight: bold;
+    padding: 13px 15px;
+    border-radius: 40px;
+    transition: 0.2s;
+    margin-top: 40px;
+    cursor:pointer;
+}
+
+.alamat-text button:hover{
+    background: #f3c682;
+}
+
+
+
