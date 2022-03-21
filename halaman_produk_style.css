@@ -48,9 +48,8 @@
 } */
 
 .header-etalase {
-    width: 100%;
+    width: 95%;
     background-color: #FF9D0A;
-    border-radius: 15px;
     margin: 20px 10px 0px 30px;
     padding: 10px;
 }
